@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+fastapi_ctf API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="fastapi_ctf",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://fastapi_ctf.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "OzymandiasThe2",
+        "url": "http://fastapi_ctf.com/contact/",
+        "email": "OzymandiasThe2@fastapi_ctf.com",
     },
     license_info={
         "name": "The Unlicense",
