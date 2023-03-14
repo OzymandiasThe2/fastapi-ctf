@@ -7,6 +7,30 @@ Awesome fastapi_ctf created by OzymandiasThe2
 This is a project I created to learn some FastAPI stuff and to do automate simple commands expected for Capture the Flag competitons as well as some Forensic Security stuff that I thought were neat to automate. 
 
 STILL A BIG WIP in progress. 
+## Current Features
+### Capture the Flag 
+- Base64 Decryption
+- File Analysis: Returns MD5 hash, file type, and file size
+- Stegsnow: Runs "stegsnow", but currently **broken** 
+- Strings: Runs "strings" on uploaded image
+- Exiftool: Runs "Exiftool" on uploaded image
+- Zsteg: Runs "Zsteg" on uploaded image. Note that it only supports PNG and BMP images, so error responses need to be added for incompatible file types.
+- Nmap: Runs a basic Nmap query on a targeted IP. Currently working on automating multiple arguments.
+- Unshadow: Creates an unshadow file for you if you have a passwd file and shadow file. Then outputed file can be cracked with tools like John the Ripper.
+
+### Forensic Security
+NOTE: The following _should_ work but will hang since uploading large files seems to cause issues
+- Fsstat: Runs "fsstat" on an image
+- Sha256: Gives the sha256 for an image.
+
+## Future Plan
+### Roadmap
+- Packet Capturing
+- fls
+- icat
+- pngcheck
+- xor 
+- unhex
 
 ## Install
 
