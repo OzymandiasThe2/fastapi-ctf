@@ -31,6 +31,7 @@ NOTE: The following _should_ work but will hang since uploading large files seem
 - pngcheck
 - xor 
 - unhex
+- Frequency Analysis
 
 ## Install
 
